@@ -2,7 +2,7 @@
 
 * **http_ntlm_bf.sh**:
 ```
-bash ./http_ntlm_bf.sh "P@ssw0rd1"
+bash ./http_ntlm_bf.sh 'P@ssw0rd1'
 ```
 
  * **a.txt**: list of users;
