@@ -6,7 +6,7 @@ hashcat --hwmon-temp-abort=100 -i -O --force --opencl-device-types 1,2 -w 4 -a 3
 ```
 * mask:
 ```
-hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 3 -m 1000 sample.sam -2 @\+\!\#\*$._%-,\& ?d?d?d?d?d?d?d?d?l
+hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 3 -m 1000 sample.sam -2 @\+\!\#\*$._%-,\& ?u?l?l?l?l?2?d?d?d?d
 ```
 * wordlist:
 ```
