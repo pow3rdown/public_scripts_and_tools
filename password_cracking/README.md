@@ -16,3 +16,13 @@ hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 0 -m
 ```
 hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 1 -m 1000 sample.sam wordlist1.dic wordlist2.dic
 ```
+* hashes:
+
+
+| algorithm  |  id  |
+| ------------------- | ------------------- |
+|  ntlm |  1000 |
+|  lm |  3000 |
+|  md5 |  0 |
+|  netntlmv2 |  5600 |
+|  netntlmv1 |  5500 |
