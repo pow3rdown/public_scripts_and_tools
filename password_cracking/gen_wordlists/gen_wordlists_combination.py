@@ -48,6 +48,6 @@ last_t_size = 0
 for f_i in sorted(final_items):
     if last_t_size <> f_i[0]:
         print '\n'
-    print 'hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 3 -a 1 -m 1000 SAMFILE.SAM ' + str(f_i[1]) + ' ' + str(f_i[2]) + '\t\t# ' + str('{:1,}'.format(f_i[0]))
+    print 'hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 1 -m 1000 SAMFILE.SAM ' + str(f_i[1]) + ' ' + str(f_i[2]) + '\t\t# ' + str('{:1,}'.format(f_i[0]))
     last_t_size = f_i[0]
 
