@@ -1,5 +1,6 @@
 # ways to crack passwords by using hashcat:
 
+```
 + bruteforce:
 hashcat --hwmon-temp-abort=100 -i -O --force --opencl-device-types 1,2 -w 4 -a 3 -m 1000 sample.sam
 
@@ -11,3 +12,4 @@ hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 0 -m
 
 + wordlist combination:
 hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 1 -m 1000 sample.sam wordlist1.dic wordlist2.dic
+```
