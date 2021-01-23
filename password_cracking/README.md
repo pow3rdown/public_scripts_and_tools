@@ -21,8 +21,8 @@ hashcat --hwmon-temp-abort=100 -O --force --opencl-device-types 1,2 -w 4 -a 1 -m
 
 | algorithm  |  id  |
 | ------------------- | ------------------- |
+|  md5 |  0 |
 |  ntlm |  1000 |
 |  lm |  3000 |
-|  md5 |  0 |
-|  netntlmv2 |  5600 |
 |  netntlmv1 |  5500 |
+|  netntlmv2 |  5600 |
