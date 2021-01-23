@@ -42,7 +42,7 @@ for i in `cat "$userslist"`; do
      fi
 
      cat "$tempfile" >> "$tempfileall"
-	 sleep 1
+     sleep 1
 done
 
 # wait for xxx seconds
