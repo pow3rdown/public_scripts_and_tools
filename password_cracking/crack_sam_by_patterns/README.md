@@ -1,4 +1,4 @@
-# generate masks for cracking according to patterns
+# generate masks for cracking passwords according to patterns
 
 once we have a partially cracked sam file, this script can analyze the pattern of passwords already cracked and generate hashcat mask commands.
 
