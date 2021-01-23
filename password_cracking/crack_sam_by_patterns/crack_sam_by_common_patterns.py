@@ -31,7 +31,7 @@ mask_len_max 	= 11
 mask_len_min 	= 9
 
 # total of each type of character
-total_symbol 	= 12        #FIXME - later this value is gonna be dynamic according to the top symbols found
+total_symbol 	= 12        #FIXME - later this value is gonna be dynamic according to the top symbols defined
 total_upper 	= 26
 total_lower	= 26
 total_num 	= 10
