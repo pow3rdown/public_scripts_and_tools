@@ -1,4 +1,4 @@
-# some scripts to help for generating wordlists:
+# some scripts to generate wordlists:
 
 * **gen_wordlists_combination.py**:
 the idea is to generate hashcat commands based on the wordlists found at the current folder sorted by size.
