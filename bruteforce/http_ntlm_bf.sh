@@ -7,17 +7,17 @@ IFS='
 # according to your needs
 #--------------------------------------
 server='http://portal.domain.com/blah'										# target server
-domain='' 																	# leave it blank/empty if bruteforce is against emails instead of usernames  
+domain='' 													# leave it blank/empty if bruteforce is against emails instead of usernames  
 #--------------------------------------
 
-password="$1"																# the password used for the test
-userslist='a.txt'															# list of users/emails
-tempfile='a.tmp'															# just a temp file
-tempfileall='all.tmp'														# all the tests done / just for reference
-resultfile='a.results'														# all results / credentials guessed
-errorfile='a.errors'														# all errors occurred during the tests
-debugfile='debug.txt'														# contains all credentials tested
-timeout=1800																# wait xxxx seconds before completely finish the test
+password="$1"													# the password used for the test
+userslist='a.txt'												# list of users/emails
+tempfile='a.tmp'												# just a temp file
+tempfileall='all.tmp'												# all the tests done / just for reference
+resultfile='a.results'												# all results / credentials guessed
+errorfile='a.errors'												# all errors occurred during the tests
+debugfile='debug.txt'												# contains all credentials tested
+timeout=1800													# wait xxxx seconds before completely finish the test
 user_agent='Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
 #--------------------------------------
 
